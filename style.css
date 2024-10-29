@@ -1,0 +1,261 @@
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
+.si-header-table {
+  width: 100%;
+  border-collapse: collapse !important;
+}
+
+.si-header-table td {
+  padding: 5px;
+  vertical-align: top;
+}
+
+.si-logo-cell, .si-rcs-logo {
+  width: 85px;
+  height: 85px;
+  margin-top: 10px;
+}
+
+.si-header-info {
+  line-height: 1;
+}
+
+.si-header {
+  line-height: .1;
+  margin-top: 7px;
+}
+
+.si-sub-header {
+  font-size: 12px;
+}
+
+.si-tel-fax {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.si-original-cell {
+  text-align: end;
+  font-weight: bold;
+}
+
+#si-company-name {
+  font-weight: bold !important;
+  font-size: 18px;
+}
+
+.si-credentials {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.si-credentials td {
+  padding: 5px;
+  vertical-align: top;
+}
+
+.si-details {
+  font-size: 12px;
+}
+
+.si-sales-invoice {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.si-container{
+  width: 100%;
+  font-size: 12px;
+  border-spacing: 0;
+  border-collapse: collapse;
+  margin: 10px 0px 10px 0px;
+  height: 100%;
+}
+
+table.si-container th, table.si-container td {
+  border: 1px solid #000;
+  padding: 8px;
+}
+
+table.si-container td {
+  height: 500px;
+}
+
+.si-rem-vat-total {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.si-rem-vat-total td {
+  padding: 5px;
+  vertical-align: top;
+}
+
+.remarks label {
+  width: 33%;
+}
+
+.remarks label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.remark {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.vat {
+  width: 33%; 
+}
+
+.vat label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 12px;
+  align-items: center;
+}
+
+.total {
+  width: 33%;
+  font-size: 12px;
+}
+
+.total label {
+  display: block; 
+  margin-bottom: 5px;
+}
+
+.total-amount {
+  font-weight: bold;
+}
+
+.si-terms-important {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.si-terms-important td {
+  padding: 10px;
+  border: 1px solid #000;
+  vertical-align: top;
+  font-size: 12px;
+}
+
+.si-terms-condition {
+  text-align: left;
+}
+
+.si-important {
+  text-align: left;
+  font-size: 12px;
+}
+
+.si-cheque-payments {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 11px;
+  border: 1px solid #000;
+}
+
+.si-cheque-payments td {
+  padding: 10px;
+}
+
+.si-msg {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: bold;
+}
+
+.si-received {
+  text-align: center;
+}
+
+.si-sign {
+  text-align: center;
+}
+
+.si-date {
+  text-align: center;
+  line-height: .3;
+}
+
+.si-rem-vat-total {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.si-rem-vat-total td {
+  padding: 5px;
+  vertical-align: top;
+}
+
+.si-bottom {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.si-bottom td {
+  padding: 5px;
+  vertical-align: top;
+}
+
+.empty {
+  width: 40%;
+}
+
+.si-signature {
+  grid-column: 3/4;
+}
+
+.si-top {
+  border: 1px solid #000;
+  padding: 0px 5px 20px 5px;
+  text-align: center;
+  font-size: 10px;
+  width: 50%;
+  margin-top: 10px;
+}
+
+.si-bot {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4px;
+  width: 50%;
+  border: 1px solid #000;
+  padding: 0px 5px 20px 5px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.si-cashier-auth-rep {
+  text-align: center;
+  padding-top: 20px;
+  line-height: .2;
+}
+
+.si-text {
+  font-size: 12px;
+  font-weight: bold;
+}
